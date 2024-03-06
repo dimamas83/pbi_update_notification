@@ -1,0 +1,17 @@
+{
+    "description": "Расширение уведомленяет о начале и окончании обновления панели PBI",
+    "manifest_version": 2,
+    "name": "Уведомление об обновлении панели",
+    "version": "1.0",
+    "icons": {
+        "256": "icon.png"
+    },
+    "permissions": [
+        "webRequest", "tabs", "notifications",
+        "*://sv-powerbi-loc/*"
+        //"<all_urls>"
+    ],
+    "background": {
+        "scripts": ["app.js"]
+    }
+}
